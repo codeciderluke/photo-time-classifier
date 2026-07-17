@@ -1,0 +1,5 @@
+PyQt5>=5.15
+
+# Image decoding / EXIF reading
+pillow>=10.0
+pi-heif>=0.13  # read HEIC/HEIF images (iPhone photos)

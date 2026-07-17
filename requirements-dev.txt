@@ -1,0 +1,11 @@
+# Development and build tooling, not needed to run the app.
+-r requirements.txt
+
+# Run the unit tests via test.bat / python -m pytest
+pytest>=8.0
+
+# Regenerate USER_MANUAL.pdf via build_manual.py
+reportlab>=4.0
+
+# Build the standalone .exe via build_exe.py
+pyinstaller>=6.0
